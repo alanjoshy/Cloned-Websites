@@ -1,0 +1,702 @@
+body {
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  background-color: #ffffff;
+  font-family: "BMW Type Web Light All";
+}
+
+/* firstsection */
+.sectionone {
+  background-color: aquamarine;
+  background-image: url("section1.jpg");
+  height: 785px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+
+.bmwlogo {
+  top: 10px;
+  left: 97px;
+  width: 55px;
+  height: 54px;
+  background-image: url("bmwwhitelogo.svg");
+  padding-right: 20px;
+  background-repeat: no-repeat;
+
+}
+
+.models {
+  padding-left: 14px;
+
+}
+
+.navbarone {
+  padding-left: 95px;
+  padding-top: 12px;
+  height: 75px;
+
+}
+
+.leftnavbar {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.rightnavbar {
+  padding-left: 10px;
+  padding-right: 455px;
+}
+
+.thpadding {
+  padding-left: 30px;
+}
+
+.navbartwo {
+  top: 31px;
+  left: 1201px;
+  width: 21px;
+  height: 19px;
+  color: #ffffff;
+}
+
+.shoppingcart {
+  padding-left: 25px;
+  background-position: center;
+  width: 24px;
+  background-image: url("shopping-cart.png");
+  background-repeat: no-repeat;
+}
+
+.searchicon {
+  padding-left: 25px;
+  background-position: center;
+  width: 24px;
+  background-image: url("magnifying-glass.png");
+  background-repeat: no-repeat;
+}
+
+.map {
+  padding-left: 25px;
+  background-position: center;
+  width: 24px;
+  background-image: url("map.png");
+  background-repeat: no-repeat;
+}
+
+.divider-horizontal {
+  margin-top: 13px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 1150px;
+  height: 1px;
+  background-color: #ffffff;
+  border-radius: 2px;
+
+}
+
+.navbarfooter {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 33px;
+  padding-left: 100px;
+}
+
+.navbartitle {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 50px;
+  /* text-align: center; */
+  margin-left: 120px;
+  margin-top: 180px;
+}
+
+.section1titleheight1 {
+  font-size: 20px;
+}
+
+.section1titleheight2 {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.discoverclass {
+  top: 459px;
+  left: 109px;
+  width: 186px;
+  height: 55px;
+  background-color: #1c69d4;
+  border-radius: 7px;
+  margin-left: 120px;
+  box-shadow: none;
+  outline: none;
+  border-width: 0px;
+
+}
+
+.discoverclass:hover {
+  background-color: rgb(4, 55, 196);
+  transition: 0.1s;
+}
+
+.discoverbutton {
+
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  padding-top: 2px;
+
+}
+
+.callicon {
+
+  height: 55px;
+  width: 55px;
+  background-image: url("phone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 380px;
+  margin-left: 1220px;
+  position: fixed;
+
+}
+
+/* whitespace */
+.whitespace {
+  height: 40px;
+}
+
+/* second section */
+
+.secondsection {
+  top: 0px;
+  left: 0px;
+  height: 550px;
+  background-image: url("secondsection.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.sectiontitle {
+  padding-left: 120px;
+  padding-top: 190px;
+  color: #ffffff;
+  font-size: 18px;
+
+  font-weight: 700;
+  line-height: 26px;
+
+}
+
+.section2titleheight {
+  font-size: 140px;
+}
+
+.sectionbutton {
+
+  margin-top: 10px;
+  margin-left: 120px;
+  width: 181px;
+  height: 59px;
+  padding: 0px 8px;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #f2f2f2;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 20px;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 3px;
+
+}
+
+.secondsection :hover {
+  border-width: 2px;
+}
+
+/* thirdsection */
+
+
+.thirdsection {
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 23px;
+  height: 420px;
+
+
+}
+
+.thirdsectiontitle {
+  padding-top: 30px;
+  padding-left: 600px;
+  color: #666666;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 23px;
+
+}
+
+.thirdsectionsubtitle {
+  padding-top: 15px;
+  padding-left: 500px;
+  color: #262626;
+  font-size: 47px;
+  font-weight: 300;
+  line-height: 67px;
+
+}
+
+/* card section */
+.cardsectionlayout {
+
+  display: flex;
+  padding-top: 38px;
+  justify-content: space-evenly;
+
+  padding-top: 1px;
+
+}
+
+.cardsection {
+  padding-top: 1px;
+}
+
+.cardicon1 {
+  width: 150px;
+  height: 130px;
+  background-image: url("caricon.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+
+}
+
+
+
+.cardicon2 {
+  width: 150px;
+  height: 130px;
+  background-image: url("caricon2.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+
+}
+
+.cardicon3 {
+  width: 150px;
+  height: 130px;
+  background-image: url("caricon3.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+
+}
+
+.cardtitle {
+  padding-top: 5px;
+  padding-left: 48px;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+.cardsectionbutton {
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 28px;
+  width: 180px;
+  height: 40px;
+  border: 1px solid #262626;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #262626;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  outline: none;
+  padding-top: 10px;
+  padding-left: 6px;
+
+}
+
+.cardsection :hover {
+
+  border: 2px solid;
+}
+
+
+
+/* fourth section */
+
+
+.section4title {
+  padding-left: 120px;
+  padding-top: 140px;
+  color: #ffffff;
+
+  font-weight: 60;
+  font-size: 47px;
+  line-height: 30px;
+
+}
+
+.fourthsection {
+  height: 480px;
+  background-image: url("section4.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.section4button {
+  cursor: pointer;
+
+  margin-top: 50px;
+  margin-left: 120px;
+  width: 235px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #f2f2f2;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 20px;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 3px;
+
+}
+
+.fourthsection :hover {
+  border-width: 2px;
+
+}
+
+/* fifth section */
+.fifthsection {
+  margin-top: 35px;
+  margin-left: 100px;
+  width: 608px;
+  height: 320px;
+  background-image: url("fifthsection.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fifthsectiontitle {
+  width: 650px;
+  padding-top: 40px;
+  padding-left: 630px;
+  color: #666666;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 23px;
+}
+
+.fifthsectiontitle2 {
+  margin-top: 20px;
+  color: #262626;
+  font-size: 45px;
+  font-weight: 100;
+}
+
+
+.fifthsectionbutton {
+  color: #000000;
+
+  margin-top: 30px;
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  padding-left: 25px;
+  padding-top: 13px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+
+}
+
+
+.fifthsectiontitle :hover {
+  border: 2px solid #262626;
+}
+
+/* sixth section */
+
+.sixthsection {
+  margin-top: 90px;
+  margin-left: 100px;
+  width: 608px;
+  height: 320px;
+  background-image: url("sixthsection.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sixthsectiontitle {
+  width: 550px;
+  padding-top: 35px;
+  padding-left: 630px;
+  color: #666666;
+  font-size: 15px;
+
+  font-weight: 800;
+  line-height: 23px;
+}
+
+.sixthsectiontitle2 {
+
+  margin-top: 20px;
+  color: #262626;
+  font-size: 48px;
+  font-weight: 100;
+}
+
+.sixthsectiontitle3 {
+
+  color: #000000;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.sixthsectionbutton {
+  color: #000000;
+
+  margin-top: 40px;
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  padding-left: 25px;
+  padding-top: 13px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.sixthsectiontitle :hover {
+  border: 2px solid #000000;
+}
+
+
+/* section border */
+
+.sectionborder {
+  margin-top: 25px;
+  height: 1px;
+  background-color: rgb(224, 224, 224);
+}
+
+/* 7th section */
+
+.section7 {
+
+  height: 80px;
+  cursor: pointer;
+}
+
+.section7title {
+
+  cursor: pointer;
+  padding-left: 100px;
+  padding-top: 36px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.section7hover :hover {
+  background-color: rgb(76, 76, 252);
+}
+
+.section7button {
+  border: 0px;
+  padding: 0;
+  border: none;
+}
+
+/* section 8 */
+
+.section8 {
+ 
+  height: 80px;
+  background-color: #e9e7e7;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  padding-bottom: 180px;
+}
+
+.listheading 
+{ 
+  cursor: pointer;
+  padding-bottom: 20px;
+  color: #585858;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+.listdetail
+{ 
+  cursor: pointer;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #585858;
+}
+
+.section8 :hover 
+{ 
+  color:#000000
+}
+
+.section7 :hover 
+{ 
+  color: #1c69d4;
+}
+
+/* social media */
+.socialmedia {
+  cursor: pointer;
+  height: 80px;
+  background-color: #e9e7e7;
+  display: flex;
+  padding-left: 120px;
+  padding-top: 30px;
+}
+
+.facebook
+{
+  width: 16px;
+  height: 27px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("facebook.png");
+
+}
+
+.instagram
+{ 
+  
+  padding-top: 7px;
+  padding-left: 30px;
+  width: 1px;
+  height: 20px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("instagram.png");
+}
+
+.youtube
+{ 
+ 
+  padding-top: 10px;
+  padding-left: 30px;
+  width: 1px;
+  height: 20px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("youtube.png");
+}
+
+.linkedin
+{ 
+  
+  padding-top: 7px;
+  padding-left: 30px;
+  width: 1px;
+  height: 20px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("linkedin.png");
+}
+
+.x
+{ 
+  
+  padding-top: 9px;
+  padding-left: 30px;
+  width: 1px;
+  height: 18px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("x.png");
+}
+
+
+
+
+/* footer */
+
+.footer {
+  top: 513px;
+  left: 0px;
+  width: 1438px;
+  height: 70px;
+  font-size: 15px;
+}
+
+.footertextone {
+  padding-top: 30px;
+  padding-left: 90px;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 17px;
+  display: flex;
+}
+
+.footertextlast {
+  padding-top: 30px;
+  padding-left: 700px;
+  font-size: 10px;
+  
+
+}
+
+.footerhover
+{ 
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.footer :hover {
+
+  color: #1c69d4;
+}
+
